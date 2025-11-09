@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>
       ✉️ lechen[AT]anl.gov<br>
-      💼 DSL, Argonne<br>
+      💻 DSL, Argonne National Laboratory<br>
       🌆 Chicagoland
     </p>
 
