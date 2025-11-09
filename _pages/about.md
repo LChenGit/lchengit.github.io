@@ -9,10 +9,13 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>lechen[AT]anl.gov</p>
-    <p>he/his</p>
+    <p>
+      ✉️ lechen[AT]anl.gov<br>
+      💼 DSL, Argonne<br>
+      🌆 Chicagoland
+    </p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,8 +29,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Le Chen is a Postdoctoral Researcher at Argonne National Laboratory.
-His research covers HPC4AI ↔ AI4HPC.
-In HPC4AI, he focuses on large-scale and efficient inference and training of AI models on modern supercomputing systems.
-In AI4HPC, his work centers on developing and evaluating large language models (LLMs) for scientific code generation, translation, and reasoning.
-Broadly, his research aims to bridge high-performance computing and artificial intelligence to accelerate scientific discovery.
+Le Chen is a Postdoctoral Researcher at Argonne National Laboratory, supervised by [Dr. Rajeev Thakur](https://web.cels.anl.gov/~thakur/).
+His research spans **HPC4AI** ↔ **AI4HPC**.
+In HPC4AI, he focuses on large-scale and efficient inference and training of AI models on modern supercomputing systems. In AI4HPC, his work centers on developing and evaluating large language models (LLMs) for scientific code generation, translation, and reasoning. Broadly, his research aims to bridge high-performance computing and artificial intelligence to accelerate scientific discovery.
