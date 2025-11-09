@@ -16,49 +16,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -426,16 +384,20 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-sc25-tpc-attended-tpc25-and-gave-a-talk-on-agent-based-hpc-code-translation-great-to-be-back-in-san-jose-after-a-year",
+          title: '[SC25 - TPC] 🌍🎤 Attended TPC25 and gave a talk on agent-based HPC...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-icpp-ai4dev-paper-accepted",
+          title: '[ICPP - AI4Dev] ✨📄 Paper accepted!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-paper-accepted-at-neurips-workshop",
-          title: 'Paper accepted at NeurIPS workshop! ✨📄',
+          section: "News",},{id: "news-sc25-tpc-paper-accepted",
+          title: '[SC25 - TPC] ✨📄 Paper accepted!',
+          description: "",
+          section: "News",},{id: "news-sc25-ai4s-paper-accepted-see-you-in-st-louis",
+          title: '[SC25 - AI4S] ✨📄 Paper accepted! See you in St. Louis!',
+          description: "",
+          section: "News",},{id: "news-neurips-2025-efficient-reasoning-paper-accepted-see-you-in-san-diego",
+          title: '[NeurIPS 2025 - Efficient Reasoning] ✨📄 Paper accepted! See you in San Diego!...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
