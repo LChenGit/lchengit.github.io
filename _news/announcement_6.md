@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2025-07-28 08:10:00-0400
+date: 2025-07-01 08:10:00-0400
 type: grant
 inline: true
 related_posts: false
 ---
 
-[SC25 - TPC] 🌍🎤 Attended [TPC25](https://tpc25.org) and gave a talk on agent-based HPC code translation. Great to be back in San Jose after a year!
+[LDRD] 🎉 co-PI, *LDRD 2025-0487*: “Energy-Efficient Foundation Model for Power Grid Resilience Analysis” (AI + Science)
