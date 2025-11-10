@@ -9,8 +9,6 @@ html {
   /* 可以微调成 17 / 19px，看哪一个更像右边旧版 */
 }
 
-
-
 .news-date {
   font-weight: 500;
   color: #444;
@@ -166,7 +164,7 @@ html {
 
 /* Active（当前选择）加个阴影边框提升视觉 */
 .news-filter-btn.active {
-  box-shadow: 0 0 0 2px rgba(0,0,0,0.15) inset;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15) inset;
 }
 
 .news-filter-btn[data-filter="all"] {
