@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-[NeurIPS 2025 - Efficient Reasoning] ✨📄 Paper accepted! See you in San Diego!
+[NeurIPS 2025 - Efficient Reasoning] ✨📄 Paper accepted! See you in San Diego! [Evaluating the Safety and Skill Reasoning of Large Reasoning Models Under Compute Constraints](https://arxiv.org/abs/2509.18382)
