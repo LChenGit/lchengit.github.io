@@ -79,12 +79,28 @@
 }
 
 @inproceedings{mahmud2025autoparllm,
-  bibtex_show={true},
-  title={Autoparllm: Gnn-guided context generation for zero-shot code parallelization using llms},
-  author={Mahmud, Quazi Ishtiaque and TehraniJamsaz, Ali and Phan, Hung D and Chen, Le and Capot{\u{a}}, Mihai and Willke, Theodore L and Ahmed, Nesreen K and Jannesari, Ali},
-  booktitle={Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},
-  pages={11821--11841},
-  year={2025}
+    title = "{A}uto{P}ar{LLM}: {GNN}-guided Context Generation for Zero-Shot Code Parallelization using {LLM}s",
+    author = "Mahmud, Quazi Ishtiaque  and
+      TehraniJamsaz, Ali  and
+      Phan, Hung D  and
+      Chen, Le  and
+      Capot{\u{a}}, Mihai  and
+      Willke, Theodore L.  and
+      Ahmed, Nesreen K.  and
+      Jannesari, Ali",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.593/",
+    doi = "10.18653/v1/2025.naacl-long.593",
+    pages = "11821--11841",
+    ISBN = "979-8-89176-189-6",
+    abstract = "In-Context Learning (ICL) has been shown to be a powerful technique to augment the capabilities of LLMs for a diverse range of tasks. This work proposes AutoParLLM, a novel way to generate context using guidance from graph neural networks (GNNs) to generate efficient parallel codes. We evaluate AutoParLLM on 12 applications from two well-known benchmark suites of parallel codes: NAS Parallel Benchmark and Rodinia Benchmark. Our results show that AutoParLLM improves the state-of-the-art LLMs (e.g., GPT-4) by 19.9{\%} in NAS and 6.48{\%} in Rodinia benchmark in terms of CodeBERTScore for the task of parallel code generation. Moreover, AutoParLLM improves the ability of the most powerful LLM to date, GPT-4, by achieving 17{\%} (on NAS benchmark) and 16{\%} (on Rodinia benchmark) better speedup. In addition, we propose OMPScore for evaluating the quality of the parallel code and show its effectiveness in evaluating parallel codes."
 }
 
 @article{tehrani2024coderosetta,
@@ -133,29 +149,41 @@
 }
 
 @article{chen2023dataracebench,
-  bibtex_show={true},
   title={Dataracebench v1. 4.1 and dataracebench-ml v0. 1: Benchmark suites for data race detection},
   author={Chen, Le and Wu, Wenhao and Siegel, Stephen F and Lin, Pei-Hung and Liao, Chunhua},
   journal={arXiv preprint arXiv:2308.08473},
   year={2023}
 }
 
-@inproceedings{chen2025pcebench,
-  bibtex_show={true},
-  title={Pcebench: A multi-dimensional benchmark for evaluating large language models in parallel code generation},
-  author={Chen, Le and Ahmed, Nesreen and Capot{\u{a}}, Mihai and Willke, Ted and Hasabnis, Niranjan and Jannesari, Ali},
-  booktitle={2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
-  pages={546--557},
+@INPROCEEDINGS{chen2025pcebench,
+  author={Chen, Le and Ahmed, Nesreen and Capotă, Mihai and Willke, Ted and Hasabnis, Niranjan and Jannesari, Ali},
+  booktitle={2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS)}, 
+  title={PCEBench: A Multi-Dimensional Benchmark for Evaluating Large Language Models in Parallel Code Generation}, 
   year={2025},
-  organization={IEEE}
-}
+  volume={},
+  number={},
+  pages={546-557},
+  keywords={Technological innovation;Codes;Parallel programming;Large language models;Scalability;Benchmark testing;Software systems;Multitasking;Natural language processing;Synchronization;large language model;parallel code generation;benchmark;evaluation;LLM agent},
+  doi={10.1109/IPDPS64566.2025.00055}}
 
-@article{tanikanti2025first,
-  bibtex_show={true},
-  title={FIRST: Federated Inference Resource Scheduling Toolkit for Scientific AI Model Access},
-  author={Tanikanti, Aditya and C{\^o}t{\'e}, Benoit and Guo, Yanfei and Chen, Le and Saint, Nickolaus and Chard, Ryan and Raffenetti, Ken and Thakur, Rajeev and Uram, Thomas and Foster, Ian and others},
-  journal={arXiv preprint arXiv:2510.13724},
-  year={2025}
+
+@inproceedings{Aditya2025first,
+author = {Tanikanti, Aditya and C\^{o}t\'{e}, Benoit and Guo, Yanfei and Chen, Le and Saint, Nickolaus and Chard, Ryan and Raffenetti, Ken and Thakur, Rajeev and Uram, Thomas and Foster, Ian and Papka, Michael E. and Vishwanath, Venkatram},
+title = {FIRST: Federated Inference Resource Scheduling Toolkit for Scientific AI Model Access},
+year = {2025},
+isbn = {9798400718717},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3731599.3767346},
+doi = {10.1145/3731599.3767346},
+abstract = {We present the Federated Inference Resource Scheduling Toolkit (FIRST), a framework enabling Inference-as-a-Service across distributed High-Performance Computing (HPC) clusters. FIRST provides cloud-like access to diverse AI models, like Large Language Models (LLMs), on existing HPC infrastructure. Leveraging Globus Auth and Globus Compute, the system allows researchers to run parallel inference workloads via an OpenAI-compliant API on private, secure environments. This cluster-agnostic API allows requests to be distributed across federated clusters, targeting numerous hosted models. FIRST supports multiple inference backends (e.g., vLLM), auto-scales resources, maintains "hot" nodes for low-latency execution, and offers both high-throughput batch and interactive modes. The framework addresses the growing demand for private, secure, and scalable AI inference in scientific workflows, allowing researchers to generate billions of tokens daily on-premises without relying on commercial cloud infrastructure.},
+booktitle = {Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+pages = {52–60},
+numpages = {9},
+keywords = {Inference as a Service, High Performance Computing, Job Schedulers, Large Language Models, Globus, Scientific Computing},
+location = {
+},
+series = {SC Workshops '25}
 }
 
 @inproceedings{bitan2025unipar,

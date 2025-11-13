@@ -2,13 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: <span style="color:#6f42c1;">AI Researcher at Argonne National Laboratory</span>. LLM, HPC, AI4Code
+subtitle: <span style="color:#6f42c1;">AI Researcher at Argonne National Laboratory</span>
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>
+      💡 LLM, HPC, AI4Code<br>
       ✉️ lechen[AT]anl.gov<br>
       💻 DSL, Argonne National Laboratory<br>
       🌆 Chicagoland, Illinois

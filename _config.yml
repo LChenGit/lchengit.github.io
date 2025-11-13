@@ -49,7 +49,7 @@ search_enabled: true
 socials_in_search: true
 posts_in_search: true
 bib_search: true
-
+bibtex_show_default: true # show bibtex button for all publications by default unless overridden in the bib entry
 # Dimensions
 max_width: 930px
 

@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-[LDRD] 🎉 co-PI, _LDRD 2025-0487_: “Energy-Efficient Foundation Model for Power Grid Resilience Analysis” (AI + Science)
+[LDRD] 🎉 co-PI, _LDRD 2025-0487_ : “Energy-Efficient Foundation Model for Power Grid Resilience Analysis” (AI + Science)
